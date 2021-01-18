@@ -1,0 +1,25 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.icon-row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.icon-row__column:nth-child(2) span:last-child {
+  margin-top: 4px;
+}
+
+.icon-row__column span {
+  margin-top: 20px;
+}
+
+.icon-row__column-id {
+  position: absolute;
+  top: -12px;
+}
